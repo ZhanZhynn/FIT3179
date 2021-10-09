@@ -18,10 +18,10 @@
           "url": "https://raw.githubusercontent.com/ZhanZhynn/3179-Homework_Week9/main/data/catsvdogs.csv"
         },
         "key": "Location",
-        "fields": ["CatPopulation","NumberofPetHouseholds"]
+        "fields": ["NumberofPetHouseholds"]
       }
     },
-    {"calculate": "datum.CatPopulation", "as": "Cat Population (Per 1000)"}
+    {"calculate": "datum.NumberofPetHouseholds", "as": "Pets Households"}
   ],
 
   "projection": {
@@ -36,7 +36,7 @@
   
   "encoding": {
     "color": {
-      "field": "Cat Population (Per 1000)",
+      "field": "Pets Households",
       "type": "quantitative",
       "scale": {
         "type": "threshold",
@@ -47,7 +47,7 @@
            },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "State"},
-      {"field": "Cat Population (Per 1000)", "type": "quantitative"}
+      {"field": "Pets Households", "type": "quantitative"}
     ]
   }
   
