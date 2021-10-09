@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Cats Popularity in US Households",
+  "title": "Number of Pets Households in US",
   "width": 800,
   "height": 600,
   "data": {
@@ -40,7 +40,7 @@
       "type": "quantitative",
       "scale": {
         "type": "threshold",
-        "domain": [500, 1000, 2000,3000,4000,5000],
+        "domain": [500, 1000, 1500,2000,2500,3000],
         "range": ["#fee5d9","#fcbba1", "#fc9272", "#fb6a4a","#ef3b2c","#cb181d","#99000d"]
         }
        
