@@ -35,9 +35,6 @@
         <!-- end pure grid group -->
         <br>
 
-        <p>Example originally from:
-            <a href=https://vega.github.io/vega-lite/examples/interactive_overview_detail.html>link</a>
-
 
             <hr class="hr3">
 
